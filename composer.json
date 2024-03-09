@@ -1,6 +1,6 @@
 {
     "name": "tomatophp/tomato-notifications-module",
-    "type": "library",
+    "type": "laravel-module",
     "description": "Laravel Notifications Channel with GUI to send notifications with templates",
     "keywords": [
         "Splade",
