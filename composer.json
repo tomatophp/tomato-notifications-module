@@ -1,0 +1,62 @@
+{
+    "name": "tomatophp/tomato-notifications-module",
+    "type": "library",
+    "description": "Laravel Notifications Channel with GUI to send notifications with templates",
+    "keywords": [
+        "Splade",
+        "Breeze",
+        "inertiajs",
+        "vuejs",
+        "blade",
+        "php8",
+        "laravel",
+        "notifications",
+        "fcm",
+        "discord",
+        "slack"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoNotifications\\": "",
+            "Modules\\TomatoNotifications\\App\\": "app/",
+            "Modules\\TomatoNotifications\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoNotifications\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoNotifications\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-plugins": "^1.2",
+        "tomatophp/tomato-settings-module": "^1.0",
+        "tomatophp/tomato-translations-module": "^1.0",
+        "tomatophp/tomato-roles-module": "^1.0",
+        "tomatophp/console-helpers": "^1.1",
+        "laravel-notification-channels/discord": "^1.4",
+        "laravel-notification-channels/fcm": "^3.1",
+        "laravel/slack-notification-channel": "^2.5",
+        "laravel-notification-channels/pusher-push-notifications": "^4.1",
+        "laravel-notification-channels/messagebird": "^4.0",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0"
+    }
+}
