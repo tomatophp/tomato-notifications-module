@@ -51,11 +51,11 @@
         "tomatophp/tomato-translations-module": "^1.0",
         "tomatophp/tomato-roles-module": "^1.0",
         "tomatophp/console-helpers": "^1.1",
-        "laravel-notification-channels/discord": "^1.4",
-        "laravel-notification-channels/fcm": "^3.1",
-        "laravel/slack-notification-channel": "^2.5",
-        "laravel-notification-channels/pusher-push-notifications": "^4.1",
-        "laravel-notification-channels/messagebird": "^4.0",
+        "tomatophp/discord-notifications": "^1.0",
+        "tomatophp/fcm-notifications": "^1.0",
+        "tomatophp/pusher-notifications": "^1.0",
+        "tomatophp/messagebird-notifications": "^1.0",
+        "laravel/slack-notification-channel": "^3.2",
         "joshbrw/laravel-module-installer": "^2.0",
         "nwidart/laravel-modules": "^10.0"
     }
